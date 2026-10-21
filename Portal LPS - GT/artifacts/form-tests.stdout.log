@@ -1,0 +1,18 @@
+✔ Site serves local assets and does not expose private files (264.102ms)
+✔ Unauthenticated requests cannot read or change client information (5.6884ms)
+✔ Server validates consent, dates, contact, interests, group and honeypot (23.6117ms)
+✔ Valid request persists, returns a reference and retries are idempotent (30.9286ms)
+✔ Authentication creates an HttpOnly, SameSite session (2.8526ms)
+✔ Cross-origin changes are blocked and invalid status is rejected (1.506ms)
+✔ Status and notes are saved and CSV escapes formula injection (15.963ms)
+✔ Requests survive a server restart; sessions require a new login (212.4733ms)
+✔ Duration and transport remain optional, including retries of older requests (232.9075ms)
+✔ Deletion removes the request and logout revokes access (15.9668ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1061.069
